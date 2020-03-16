@@ -69,9 +69,6 @@ function handleClick(e) {
   video.play();
 }
 
-
-
-
 function close() {
   const video = document.querySelector('.video');
   video.parentNode.removeChild(video);
@@ -87,9 +84,6 @@ function closeWindow(e){
 if(window.innerWidth <= 1000){
         gallery.style.margin = "5em 3em";
 }
-
-
-
 
 elements.forEach(item => item.addEventListener('click', handleClick));
 closeButton.addEventListener('click', close);
